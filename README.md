@@ -6,8 +6,6 @@ SuperCell AI Hackathon : https://eu.junctionplatform.com/projects/supercell-ai-g
 
 Building Most Addictive coding platform in the world powered by Unity Neocortex featured in Supercell AI Hackathon 26 Oct 2025
 
-VerseAI is AI Powered Character Assisted Coding Platform which is set to go live in 2026.
-
 # Our Vision:
 
 AI-Character gets powered-up by solving Questions in verseAI.
@@ -17,9 +15,6 @@ Your AI Character who will be guide for you while solving questions, because hav
 # Demo
 
 YouTube : https://www.youtube.com/watch?v=8oAtEf4nn08&list=PLjc92lRvjly_qJPXRe2bDaEc_GjeIQtNr
-
-
-Building Most Addictive coding platform in the world powered by Unity Neocortex featured in Supercell AI Hackathon 26 Oct 2025
 
 VerseAI is AI Powered Character Assisted Coding Platform which is set to go live in 2026.
 
