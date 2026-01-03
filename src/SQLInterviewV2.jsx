@@ -3,8 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import Editor from '@monaco-editor/react';
 import axios from 'axios';
 import NarutoCharacter from './NarutoCharacter';
-
-const API_BASE_URL = 'http://localhost:5001/api';
+import { API_BASE_URL } from './config';
 
 export default function SQLInterviewV2({ onBackToHome }) {
   const [mode, setMode] = useState('chat');

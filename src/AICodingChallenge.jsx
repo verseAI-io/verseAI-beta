@@ -4,6 +4,7 @@ import Editor from '@monaco-editor/react';
 import axios from 'axios';
 import codingQuestions from './data/codingQuestions.json';
 import NarutoCharacter from './NarutoCharacter';
+import { API_BASE_URL } from './config';
 
 export default function AICodingChallenge({ onBackToHome }) {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
@@ -55,7 +56,7 @@ export default function AICodingChallenge({ onBackToHome }) {
 
   const runSQLTests = async () => {
     try {
-      const response = await axios.post('http://localhost:5001/api/bigquery/query', {
+      const response = await axios.post(`${API_BASE_URL}/bigquery/query`, {
         query: code
       });
 

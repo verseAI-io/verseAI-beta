@@ -2,8 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import Editor from '@monaco-editor/react';
 import axios from 'axios';
-
-const API_BASE_URL = 'http://localhost:5001/api';
+import { API_BASE_URL } from './config';
 
 export default function SQLPlayground({ isOpen, onClose }) {
   const [question, setQuestion] = useState('');

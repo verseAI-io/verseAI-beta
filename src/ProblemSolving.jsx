@@ -2,8 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import axios from 'axios';
 import ThreeDEnvironment from './ThreeDEnvironment';
-
-const API_BASE_URL = 'http://localhost:5001/api';
+import { API_BASE_URL } from './config';
 
 export default function ProblemSolving({ isOpen, onClose }) {
   const [currentScreen, setCurrentScreen] = useState('input'); // 'input', 'processing'
